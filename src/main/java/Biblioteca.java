@@ -24,7 +24,7 @@ public class Biblioteca {
             this.libros.add(libro);
             return true;
         }
-        libro.setCantidadDisponible(libro.getCantidadDisponible()+1);
+        libro.devolver();
         return false;
     }
 
@@ -34,7 +34,7 @@ public class Biblioteca {
             this.libros.add(libro);
             return true;
         }
-        libro.setCantidadDisponible(libro.getCantidadDisponible()+1);
+        libro.devolver();
         return false;
     }
 

@@ -77,10 +77,7 @@ public class Libro {
     }
 
     public void mostrarInfo(){
-        if (this.disponible) {
-            System.out.println("Título: " + this.titulo + " | Autor: " + this.autor + " | Género: " + this.genero + " | ISBN: " + this.isbn + " | Copias disponibles: " + this.cantidadDisponible + " | Disponibilidad: Libro disponible.");
-        }
-        System.out.println("Título: " + this.titulo + " | Autor: " + this.autor + " | Género: " + this.genero + " | ISBN: " + this.isbn + " | Copias disponibles: " + this.cantidadDisponible + " | Disponibilidad: No se encuentra disponible.");
+        System.out.println("Título: " + this.titulo + " | Autor: " + this.autor + " | Género: " + this.genero + " | ISBN: " + this.isbn + " | Copias disponibles: " + this.cantidadDisponible + " | Disponibilidad: "+this.disponible);
     }
 
 }
